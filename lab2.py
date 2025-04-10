@@ -41,9 +41,9 @@
 #     bashnya(n-1, auxiliary, target, source, auxiliary_name, target_name, source_name)
 # with open('diski.txt', 'r') as file:
 #     disks = [int(line.strip()) for line in file]
-# stack_a = disks[::-1]  # Изначально все диски на стержне А
-# stack_b = [] # Промежуточный стержень B
-# stack_c = [] # Итоговый стержень C
+# stack_a = disks[::-1]  
+# stack_b = [] 
+# stack_c = []
 # bashnya(len(disks), stack_a, stack_c, stack_b, 'A', 'C', 'B')
 
 
