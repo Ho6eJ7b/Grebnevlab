@@ -144,14 +144,14 @@
 
 # def reverse_file(input_file, output_file):
 #     stack = []
-#     with open(input_file, 'r', encoding='utf-8') as file:
+#     with open(input_file) as file:
 #         for line in file:
 #             stack.append(line.strip())
 #     with open(output_file, 'w') as out_file:
 #         while stack:
-#             line = stack.pop() # Извлечение последней строки из стека и присвоение её переменной line
-#             print(line) # Вывод строки на экран
-#             out_file.write(f"{line}\n") # Запись этой строки в файл вывода
+#             line = stack.pop()
+#             print(line) 
+#             out_file.write(f"{line}\n")
 # input_file = 'stroki.txt'
 # output_file = 'obrstroki.txt'
 # reverse_file(input_file, output_file)
