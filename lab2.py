@@ -144,7 +144,7 @@
 
 # def reverse_file(input_file, output_file):
 #     stack = []
-#     with open(input_file) as file:
+#     with open(input_file, 'r') as file:
 #         for line in file:
 #             stack.append(line.strip())
 #     with open(output_file, 'w') as out_file:
