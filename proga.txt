@@ -1,7 +1,0 @@
-
-def primer():
-    if (a > b):
-        print("a bol'she")
-    else:
-        print("b bol'she")
-    return (a + b)
